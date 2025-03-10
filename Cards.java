@@ -46,7 +46,7 @@ public class Cards {
     }
 
     private void setupGUI() {
-        frame = new JFrame("Pokémon Match Cards");
+        frame = new JFrame("Match Cards");
         frame.setLayout(new BorderLayout());
         frame.setSize(columns * cardWidth, rows * cardHeight);
         frame.setLocationRelativeTo(null);
